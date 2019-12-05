@@ -416,8 +416,8 @@ $ git config --global user.email [Your_Email]</code></pre>
 <p>以系統管理員身分開啟 PowerShell 主控台 (對 ‘開始’ 圖標右鍵 &gt; PowerShell 系統管理員)，輸入以下指令</p>
 <pre><code class="powershell">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</code></pre>
 <p>接著到<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows?source=post_page-----e722e87ffa3b----------------------" target="_blank" rel="noopener">官網</a>v下載 Windows 版的 Docker 並安裝，並且在設置處開啟 <code>expose daemon</code>、開啟 <code>kubernetes</code>，<a href="https://kubernetes.io/docs/tasks/tools/install-minikube/" target="_blank" rel="noopener">minikube</a> 自行安裝即可~</p>
-<img src="Docker-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
-<img src="K8S-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
+<img src="docker-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
+<img src="k8s-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
 
 <p>完成後到 WSL 安裝 <code>docker.io</code>、<code>kubectl</code>，開始搭建服務節點吧🎉🎉</p>
 <pre><code class="bash">$ sudo apt update

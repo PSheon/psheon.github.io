@@ -194,11 +194,11 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zs
 plugins=(git docker docker-compose zsh-completions zsh-autosuggestions zsh-syntax-highlighting)</code></pre>
 <h2 id="編輯器"><a href="#編輯器" class="headerlink" title="編輯器"></a>編輯器</h2><p>我使用 Vim 開發軟體好多年了，因為我一直不知道怎麼離開編輯模式XD，中途用過 <a href="https://www.sublimetext.com/" target="_blank" rel="noopener">Sublime text</a>、<a href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="noopener">Phpstorm</a>、<a href="https://atom.io/" target="_blank" rel="noopener">Atom</a>，目前最順手的還是微軟的 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VS Code</a>，主要原因是我不需要 IDE 我喜歡自己搭建執行跟測試環境，以下是我的幾個設定</p>
 <p><code>extensions</code>：由 Ctrl + Shift + X 進入市集 安裝 (點選圖片可以放大)</p>
-<img src="VSCODE_extension_1.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
-<img src="VSCODE_extension_2.png" style="width: 45%;margin: 12px 0 12px 2%;display: inline-block;" />
-<img src="VSCODE_extension_3.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
-<img src="VSCODE_extension_4.png" style="width: 45%;margin: 12px 0 12px 2%;display: inline-block;" />
-<img src="VSCODE_extension_5.png" style="width: 45%;margin: 12px 0;display: inline-block;" />
+<img src="VSCODE_extension_1.png" class="w-half-imgWrapper" />
+<img src="VSCODE_extension_2.png" class="w-half-imgWrapper" />
+<img src="VSCODE_extension_3.png" class="w-half-imgWrapper" />
+<img src="VSCODE_extension_4.png" class="w-half-imgWrapper" />
+<img src="VSCODE_extension_5.png" class="w-full-imgWrapper" />
 
 <p><code>settings (JSON)</code>：由 Ctrl + Shift + P 輸入 &gt;settings (JSON) 進入</p>
 <pre><code class="bash">{
@@ -416,8 +416,10 @@ $ git config --global user.email [Your_Email]</code></pre>
 <p>以系統管理員身分開啟 PowerShell 主控台 (對 ‘開始’ 圖標右鍵 &gt; PowerShell 系統管理員)，輸入以下指令</p>
 <pre><code class="powershell">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</code></pre>
 <p>接著到<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows?source=post_page-----e722e87ffa3b----------------------" target="_blank" rel="noopener">官網</a>v下載 Windows 版的 Docker 並安裝，並且在設置處開啟 <code>expose daemon</code>、開啟 <code>kubernetes</code>，<a href="https://kubernetes.io/docs/tasks/tools/install-minikube/" target="_blank" rel="noopener">minikube</a> 自行安裝即可~</p>
-<img src="docker-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
-<img src="k8s-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
+<!-- <img src="docker-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" />
+<img src="k8s-setting.png" style="width: 45%;margin: 12px 2% 12px 0;display: inline-block;" /> -->
+<img src="docker-setting.png" class="w-half-imgWrapper" />
+<img src="k8s-setting.png" class="w-half-imgWrapper" />
 
 <p>完成後到 WSL 安裝 <code>docker.io</code>、<code>kubectl</code>，開始搭建服務節點吧🎉🎉</p>
 <pre><code class="bash">$ sudo apt update

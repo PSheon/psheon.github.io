@@ -68,8 +68,9 @@ function buildImgCaption() {
   var images = $('.content').find('img');
 
   images.each(function () {
+    let imageWidth = $(this).width()
     var caption = $(this).attr('alt');
-    $('.content').find("[alt='" + caption + "']").parent().append('<p class="image-caption">"' + caption + '"</p>');
+    $('.content').find("[alt='" + caption + "']").parent().append('<p class="image-caption" style="width: calc(' + imageWidth +'px + 4%);">"' + caption + '"</p>');
   });
 }
 

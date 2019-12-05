@@ -2268,6 +2268,7 @@ h1.title {
   z-index: -1;
 }
 .article p.image-caption {
+  display: inline-block;
   color: #9e9e9e;
   width: 100%;
   text-align: center;

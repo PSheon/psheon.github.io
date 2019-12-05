@@ -256,7 +256,7 @@ audio {
   top: 0;
   left: 30%;
   width: 1200px;
-  height: 800px;
+  height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.85;
@@ -323,7 +323,7 @@ audio {
   display: none;
   animation-delay: 800ms;
   animation-duration: 1s;
-  font-size: 38px;
+  font-size: 20px;
   padding: 6px 6px 5px;
   border-radius: 2px;
   cursor: pointer;
@@ -331,7 +331,7 @@ audio {
   z-index: 10;
   right: 0;
   top: 0;
-  margin-top: -28px;
+  margin-top: -10px;
   background: #000;
   transition: display 400ms ease-in-out;
 }
@@ -572,7 +572,7 @@ body.touch .article {
   top: 10px;
 }
 .icon-home {
-  top: 14px;
+  top: 16px;
 }
 .subtitle {
   background: #b2fefa !important;
@@ -615,9 +615,9 @@ body.touch .article {
 }
 .icon-pause {
   position: absolute;
-  left: 68px;
-  top: 8px;
-  font-size: 17px;
+  left: 70px;
+  top: 4px;
+  font-size: 22px;
   cursor: pointer;
   font-weight: 300;
   background: #b2fefa !important;
@@ -690,7 +690,7 @@ body.touch .article {
 }
 .share > a {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 24px;
   background: #b2fefa !important;
   background: -webkit-linear-gradient(to right, var(--primary), var(--secondary), var(--dark)) !important;
   background: linear-gradient(to right, var(--primary), var(--secondary), var(--dark)) !important;
@@ -3438,7 +3438,7 @@ pre .keyword {
     left: 50px;
   }
   .icon-home {
-    left: 15px;
+    left: 20px;
   }
   .icon-play {
     display: none;

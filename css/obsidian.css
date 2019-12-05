@@ -182,6 +182,9 @@ ul {
   font-weight: normal;
   list-style: none;
 }
+ul ul {
+  margin-left: 1em !important;
+}
 li {
   margin: 0;
   padding: 0;

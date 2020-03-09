@@ -39,6 +39,41 @@
     </entry>
     
     
+    
+    <entry>
+      <title>past-project</title>
+      <link href="/2019/08/09/past-project/"/>
+      <url>/2019/08/09/past-project/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Gekko-開發、交易紀錄"><a href="#Gekko-開發、交易紀錄" class="headerlink" title="Gekko 開發、交易紀錄"></a>Gekko 開發、交易紀錄</h2><p>使用技術：</p><p>前端：Quasar Framework + Vuex + axios + echart(stock) + vue-i18n + ws + lodash + webpack(4)</p><p>後端：Nginx + express + wss + redis + mongodb(mongoose) + jwt(passport)</p><p>測試：(mocha + chai) -&gt; Mike make a contribute</p><p>容器：Docker Compose</p><p>CI/CD：Travis + Github</p><p>Cloud：Azure VM + Herouku</p><img src="screencapture-localhost-8080-2019-05-28-22_02_52.png" class="w-half-imgWrapper" /><img src="screencapture-localhost-8080-2019-05-28-22_08_46.jpg" class="w-half-imgWrapper" />]]></content>
+      
+      
+      <categories>
+          
+          <category> 過往專案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+            <tag> Gekko </tag>
+            
+            <tag> Vue </tag>
+            
+            <tag> quasar </tag>
+            
+            <tag> Crypto </tag>
+            
+            <tag> trading </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>

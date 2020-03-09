@@ -26,6 +26,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/2019/10/04/workspace-setup/');
 
+  precacheUrls.push('/2019/08/09/past-project/');
+
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":5};
 
